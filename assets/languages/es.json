@@ -1,0 +1,28 @@
+{
+    "title": "Desarrollador de Software",
+    "about": {
+        "heading": "Sobre mí",
+        "content": "Estudiante de Ingeniería en Ciencias de la Computación. Desarrollador de software. Dominio avanzado de software de oficina y otras herramientas. Apasionado por el frontend."
+    },
+    "projects": {
+        "heading": "Proyectos",
+        "project1": {
+            "title": "Proyecto Uno",
+            "description": "Desarrollo Web"
+        },
+        "project2": {
+            "title": "Proyecto Dos",
+            "description": "Diseño UI/UX"
+        },
+        "project3": {
+            "title": "Proyecto Tres",
+            "description": "Aplicación Móvil"
+        }
+    },
+    "skills": {
+        "heading": "Habilidades"
+    },
+    "contact": {
+        "heading": "Contacto"
+    }
+}

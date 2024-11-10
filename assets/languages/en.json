@@ -1,0 +1,28 @@
+{
+    "title": "Software Developer",
+    "about": {
+        "heading": "About",
+        "content": "Computer Science Engineering student. Software developer. Advanced proficiency in office software and other tools. Very passionate about frontend."
+    },
+    "projects": {
+        "heading": "Projects",
+        "project1": {
+            "title": "Project One",
+            "description": "Web Development"
+        },
+        "project2": {
+            "title": "Project Two",
+            "description": "UI/UX Design"
+        },
+        "project3": {
+            "title": "Project Three",
+            "description": "Mobile App"
+        }
+    },
+    "skills": {
+        "heading": "Skills"
+    },
+    "contact": {
+        "heading": "Contact"
+    }
+}

@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Intersection Observer for line accents
+    // Your existing intersection observer code
     const sections = document.querySelectorAll('.section');
     
     const observer = new IntersectionObserver((entries) => {
@@ -11,16 +11,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }, { threshold: 0.2 });
 
     sections.forEach(section => observer.observe(section));
-
-    // Smooth scroll for navigation
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-            document.querySelector(this.getAttribute('href')).scrollIntoView({
-                behavior: 'smooth'
-            });
-        });
-    });
 
     // Dynamic line animation
     const moveLines = (e) => {
@@ -40,4 +30,8 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     document.addEventListener('mousemove', moveLines);
+
+    // Initialize language manager
+    const languageManager = new LanguageManager();
+    languageManager.initialize();
 });
